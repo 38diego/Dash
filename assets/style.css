@@ -1,0 +1,81 @@
+/* Elimina márgenes por defecto del navegador */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado principal */
+#encabezado-principal {
+    background: #BE0C4D;
+    color: white;
+    padding: 1% 1%;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#titulo-principal {
+    margin: 0;
+}
+
+
+.contenedor-columnas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2%; /* espacio entre columnas */
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.columna-izquierda{
+    flex: 0.55; 
+}
+
+.columna-derecha {
+    flex: 0.45; 
+}
+
+#titulo-hogares { 
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+/* Aplica al contenedor principal */
+#container-hogares {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+/* Hace que el dropdown use todo el ancho disponible */
+#dropdown {
+    width: 100%;
+    margin-top: 0.5%;
+}
+
+.titulos{
+    margin: 0;
+    text-align: center;
+    background-color: #E6E6E6;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.textos{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+#Mapa { 
+    height: 76vh;
+}
+
+#clas_hog{
+    height: 31vh;
+    margin-top: 8%;
+    margin-bottom: 7%;
+}
