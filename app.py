@@ -8,5 +8,5 @@ server = app.server  # Esto permite desplegarla en Heroku o Render
 # Asignar el layout principal
 app.layout = crear_layout()
 
-if __name__ == '__main__':
-   app.run(debug=True,port=8501)
+if __name__ == "__main__":
+    app.run_server(host="0.0.0.0", port=8080, debug=True)
